@@ -309,7 +309,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/*\n  centers navbar on screens less than 768px\n*/\n@media (max-width: 768px) {\n  .navbar .navbar-nav {\n    width: 100%;\n    text-align: center;\n  }\n  .navbar.navbar-default .navbar-nav > li {\n    display: inline-block;\n    float: none;\n  }\n  .navbar-brand {\n    width: 100%;\n    text-align: center;\n  }\n}", ""]);
+exports.push([module.i, "/*\n  centers navbar on screens less than 768px\n*/\n@media (max-width: 768px) {\n  .navbar .navbar-nav {\n    width: 100%;\n    text-align: center;\n    border-bottom: 1px lightgrey solid;\n    border-top: 1px lightgrey solid;\n  }\n  .navbar.navbar-default .navbar-nav > li {\n    display: inline-block;\n    float: none;\n  }\n  .navbar-brand {\n    width: 100%;\n    text-align: center;\n    padding-top: 15px;\n    padding-bottom: 0px;\n  }\n}", ""]);
 
 // exports
 
