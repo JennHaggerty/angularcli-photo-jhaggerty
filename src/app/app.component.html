@@ -1,16 +1,3 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a href="#" class="navbar-brand">Portrait Photography</a>
-      </div>
-      <div id="nav">
-        <ul class="nav navbar-nav navbar-right">
-          <li> <a routerLink="/portfolio">Portfolio.</a> </li>
-          <li> <a routerLink="/about">CV.</a> </li>
-          <li> <a routerLink="/contact">Contact Jenn.</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <router-outlet></router-outlet>
-<div ng-view></div>
+<app-navigation>
+  <div ng-view></div>
+</app-navigation>
