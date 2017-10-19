@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+div.gallery {
+  display: inline;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+body { 
+  padding-top: 65px; 
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px;
+  }
+}
+*/

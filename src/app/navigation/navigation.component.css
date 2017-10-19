@@ -1,0 +1,16 @@
+/*
+  centers navbar on screens less than 768px
+*/
+@media (max-width: 768px) {
+ .navbar .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar.navbar-default .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  .navbar-brand {
+    text-align: center;
+  }
+}
